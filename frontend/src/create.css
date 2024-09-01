@@ -1,0 +1,59 @@
+.create-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .create-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-form label {
+    margin-bottom: 10px;
+  }
+  
+  .create-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .link-to-admin {
+    margin-top: 20px;
+  }
+  
+  .link-to-admin button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .link-to-admin button:hover {
+    background-color: #218838;
+  }
+  
